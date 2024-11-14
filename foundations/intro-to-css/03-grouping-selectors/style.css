@@ -1,0 +1,14 @@
+.mentiroso, .verdadeiro {
+    font-size: 50px;
+    font-family: Tahoma, serif;
+}
+
+.mentiroso {
+    color: #cdd6f4;
+    background-color: #181825;
+}
+
+.verdadeiro {
+    color: #181825;
+    background-color: #fab387;
+}
