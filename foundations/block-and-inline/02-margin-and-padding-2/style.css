@@ -9,6 +9,11 @@ body {
   margin: 16px auto;
 }
 
+* {
+  padding: 8px;
+  margin: 8px;
+}
+
 .title {
   background: #e3f4ff;
 }
@@ -18,10 +23,13 @@ body {
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
 }
 
-button {
+.bigbutton {
+  display: block;
+  margin-left: 135px;
   background: white;
   border: 1px solid #eee;
 }
