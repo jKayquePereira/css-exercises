@@ -3,9 +3,12 @@
   background: papayawhip;
 
   display: flex;
+  /*padding: 8px;*/
 
   justify-content: space-between;
   align-items: center;
+
+  padding: 8px;
 }
 
 .logo {
@@ -14,19 +17,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-
-  margin: 8px;
-
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-}
 
-.header ul li {
-  display: inline-block;
-  flex: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
