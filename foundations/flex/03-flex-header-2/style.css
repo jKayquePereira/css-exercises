@@ -16,8 +16,6 @@ body {
   /*alteracoes*/
   justify-content: space-between;
   display: flex;
-  align-items: center;
-  margin: 0;
   padding: 8px;
 }
 
@@ -36,7 +34,6 @@ body {
   font-style: italic;
 
   /*alteracoes*/
-  margin-right: 16px;
 }
 
 button {
@@ -57,24 +54,17 @@ ul {
   list-style-type: none;
 }
 
-.parte-direita {
+.parte_esquerda,.parte-direita {
+  display: flex;
+
+  gap: 16px;
+  align-items: center;
+}
+
+.links {
   display: flex;
 
   margin: 0;
   padding: 0;
   gap: 16px;
-
-  align-items: center;
-}
-  .parte_esquerda {
-    display: flex;
-    align-items: center;
-  }
-
-  .links {
-    display: flex;
-
-    margin: 0;
-    padding: 0;
-    gap: 16px;
   }
