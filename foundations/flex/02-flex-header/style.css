@@ -12,8 +12,11 @@
   font-size: 48px;
   font-weight: 900;
   color: tomato;
-  background: blue;
+  background: white;
   padding: 4px 32px;
+
+  margin: 8px;
+
 }
 
 ul {
@@ -23,12 +26,12 @@ ul {
 
 .header ul li {
   display: inline-block;
-  background: white;
   flex: auto;
 }
 
 a {
   font-size: 22px;
+  background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
