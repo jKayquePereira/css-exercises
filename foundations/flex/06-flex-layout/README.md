@@ -1,22 +1,22 @@
-# An entire page!
+# Uma página inteira!
 
-Flexbox is useful for laying out entire pages as well as the smaller components we've already been working with. For this exercise, we're leaving you with a little more work to do, with some things you may not have encountered yet. It's perfectly acceptable to google things you're unsure of!
+O Flexbox é útil para organizar páginas inteiras, bem como componentes menores com os quais já trabalhamos. Para este exercício, deixamos você com um pouco mais de trabalho a fazer, com algumas coisas que você talvez ainda não tenha encontrado. É perfeitamente aceitável pesquisar no Google coisas sobre as quais você não tem certeza!
 
-### Hints
-- You may want to search something like `CSS remove list bullets`.  We've done this for you in previous examples, but not here. Yay learning.
-- Finding out how to style links in CSS might help you get rid of that pesky underline decoration...
-- We've added `height: 100vh` to the `body`... this makes the body exactly the same height as the viewport. To stick the footer to the bottom you will need to use flex and change the direction to column.
+### Dicas
+- Você pode querer pesquisar algo como `CSS remove list bullets`.  Fizemos isso para você em exemplos anteriores, mas não aqui. Eba, aprendendo.
+- Descobrir como estilizar links em CSS pode ajudá-lo a se livrar daquela incômoda decoração de sublinhado...
+- Adicionamos `height: 100vh` ao `body`... isso faz com que o corpo tenha exatamente a mesma altura da janela de visualização. Para colar o rodapé na parte inferior você precisará usar flex e mudar a direção para coluna.
 
-## Desired Outcome
-![desired outcome](./desired-outcome.png)
+## Resultado Desejado
+![resultado desejado](./desired-outcome.png)
 
-### Self Check
+### Autoverificação
 
-- The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
-- The header and footer have padding.
-- The links in the header and footer are pushed to either side.
-- There is space between the links in the header and footer.
-- The footer has a light gray background (`#eeeeee`).
-- The logo, input and buttons are centered in the screen.
-- The buttons have an appropriate amount of padding.
-- There is space between the logo, input and buttons.
+- O cabeçalho fica na parte superior da página, o rodapé fica na parte inferior e eles permanecem no lugar se você redimensionar a tela.
+- O cabeçalho e o rodapé possuem preenchimento.
+- Os links no cabeçalho e rodapé são empurrados para ambos os lados.
+- Há espaço entre os links no cabeçalho e no rodapé.
+- O rodapé tem fundo cinza claro (`#eeeeee`).
+- O logotipo, a entrada e os botões ficam centralizados na tela.
+- Os botões possuem uma quantidade adequada de preenchimento.
+- Existe espaço entre o logotipo, entrada e botões.

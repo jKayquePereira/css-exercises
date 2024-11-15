@@ -1,12 +1,11 @@
-# CENTER THIS DIV
-This one is simple, but it's something that you'll want to do ALL THE TIME.  Might as well get it out of the way now.
+#CENTRAR ESTE DIV
+Este é simples, mas é algo que você vai querer fazer O TEMPO TODO.  É melhor tirar isso do caminho agora.
 
-All you need to do is center the red div inside the blue container.
+Tudo que você precisa fazer é centralizar o div vermelho dentro do contêiner azul.
 
-## Desired Outcome
-![outcome](./desired-outcome.png)
+## Resultado Desejado
+![resultado](./desired-outcome.png)
 
-### Self Check
-- Is the red div centered?
-- Did you _only_ use flexbox to center it?
-
+### Autoverificação
+- O div vermelho está centralizado?
+- Você _apenas_ usou o flexbox para centralizá-lo?

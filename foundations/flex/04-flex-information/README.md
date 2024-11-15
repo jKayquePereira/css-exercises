@@ -1,19 +1,19 @@
-# A very common website feature
+# Um recurso de site muito comum
 
-The goal of this exercise is to recreate a section that is found on many informational websites.
+O objetivo deste exercício é recriar uma seção encontrada em muitos sites informativos.
 
-For this one you will need to edit the HTML a little bit too. We can't be making things _too_ easy for you. You'll want to add containers around the various elements so that you can flex them. Good luck!
+Para este você precisará editar um pouco o HTML também. Não podemos tornar as coisas _muito_ fáceis para você. Você desejará adicionar contêineres ao redor dos vários elementos para poder flexibilizá-los. Boa sorte!
 
-## Desired outcome
+## Resultado desejado
 
-![desired outcome](./desired-outcome.png)
+![resultado desejado](./desired-outcome.png)
 
-### Self Check
+### Autoverificação
 
-- All items are centered on the page (horizontally, not vertically).
-- The title is centered on the page.
-- There is 32px between the title and the 'items.'
-- There is 52px between each item.
-- The items are arranged horizontally on the page.
-- The items are only 200px wide and the text wraps.
-- The item text is centered.
+- Todos os itens são centralizados na página (horizontalmente, não verticalmente).
+- O título está centralizado na página.
+- Há 32px entre o título e os ‘itens’.
+- Há 52px entre cada item.
+- Os itens são organizados horizontalmente na página.
+- Os itens têm apenas 200px de largura e o texto é quebrado.
+- O texto do item está centralizado.
