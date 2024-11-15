@@ -13,12 +13,12 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
-  /*temporario*/
-  border: 5px solid red;
-
   /*alteracoes*/
+  justify-content: space-between;
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 8px;
 }
 
 .profile-image {
@@ -34,6 +34,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
+  /*alteracoes*/
+  margin-right: 16px;
 }
 
 button {
@@ -56,24 +59,22 @@ ul {
 
 .parte-direita {
   display: flex;
-  justify-content: right;
 
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
 
-  /*temporario*/
-  border: 5px solid green;
+  align-items: center;
 }
+  .parte_esquerda {
+    display: flex;
+    align-items: center;
+  }
 
-.links {
-  display: flex;
+  .links {
+    display: flex;
 
-  margin: 0;
-  padding: 0;
-  gap: 8px;
-
-  /*temporario*/
-  border: 5px solid green;
-}
-
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
