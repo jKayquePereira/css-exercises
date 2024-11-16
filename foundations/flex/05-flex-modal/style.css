@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  text-align: start;
 }
 
 .modal {
@@ -66,4 +68,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.escrita, .botoes {
+  margin-left: 70px;
+}
+
+.header {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.botoes, .header, .text {
+  margin-bottom: 15px;
+}
+
+.icones {
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.icon {
+  position: absolute;
+  bottom: -55px;
+  left: 10px;
 }
