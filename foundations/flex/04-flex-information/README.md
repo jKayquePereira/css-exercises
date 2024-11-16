@@ -16,4 +16,4 @@ Para este você precisará editar um pouco o HTML também. Não podemos tornar a
 - Há 52px entre cada item.
 - Os itens são organizados horizontalmente na página.
 - Os itens têm apenas 200px de largura e o texto é quebrado.
-- O texto do item está centralizado.
+- O texto do item está centralizado. 
