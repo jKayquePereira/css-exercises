@@ -22,8 +22,6 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-
-  padding: 16px;
 }
 
 .icon {
@@ -82,8 +80,8 @@ button.cancel {
   font-size: 18px;
 }
 
-.header, .text {
-  /*margin-bottom: 15px;*/
+.botoes, .header, .text {
+  margin-bottom: 10px;
 }
 
 .icones {
@@ -92,12 +90,12 @@ button.cancel {
 
 .close-button {
   position: absolute;
-  top: 5px;
+  top: 18px;
   right: 15px;
 }
 
 .icon {
   position: absolute;
-  bottom: -55px;
+  bottom: -60px;
   left: 10px;
 }
