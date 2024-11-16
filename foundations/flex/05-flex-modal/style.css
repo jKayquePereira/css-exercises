@@ -74,7 +74,7 @@ button.cancel {
 }
 
 .escrita, .botoes {
-  margin-left: 60px;
+  margin-left: 55px;
 }
 
 .header {
@@ -98,15 +98,15 @@ button.cancel {
 .close-button {
   position: absolute;
   top: 18px;
-  right: 15px;
+  right: 5px;
 }
 
 .icon {
   position: absolute;
   bottom: -60px;
-  left: 10px;
+  left: -5px;
 }
 
 .botoes {
-  padding-bottom: 4px;
+  padding-bottom: 5px;
 }
