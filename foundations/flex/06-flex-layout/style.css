@@ -24,3 +24,29 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a:link, a:visited  {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  border: 5px solid green;
+  background-color: rgb(238, 238, 238);
+
+  margin-top: 285px;
+
+  justify-content: center;
+  gap: 1200px;
+}
+
+.footer .right-links, .footer .left-links {
+  display: flex;
+  gap: 16px;
+}
+
