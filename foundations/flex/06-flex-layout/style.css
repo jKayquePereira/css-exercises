@@ -39,8 +39,8 @@ a:link, a:visited  {
   /*border: 5px solid green;*/
   background-color: rgb(238, 238, 238);
 
-  margin-top: 292px;
-  gap: 1255px;
+  margin-top: 300px;
+  gap: 1254px;
 
   justify-content: space-around;
 }
