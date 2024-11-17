@@ -34,18 +34,20 @@ a:link, a:visited  {
   text-decoration: none;
 }
 
-.footer {
+.footer, .header {
   display: flex;
-  /*border: 5px solid green;*/
-  background-color: rgb(238, 238, 238);
-
-  margin-top: 300px;
-  gap: 1254px;
-
   justify-content: space-around;
 }
 
-.footer .right-links, .footer .left-links {
+.footer {
+  /*border: 5px solid green;*/
+  background-color: rgb(238, 238, 238);
+
+  margin-top: 365px;
+  gap: 1254px;
+}
+
+.right-links, .left-links {
   display: flex;
   gap: 16px;
 
