@@ -43,7 +43,7 @@ a:link, a:visited  {
   /*border: 5px solid green;*/
   background-color: rgb(238, 238, 238);
 
-  margin-top: 179px;
+  margin-top: 162px;
   gap: 1254px;
 }
 
@@ -72,10 +72,23 @@ a:link, a:visited  {
   text-align: center;
 }
 
-#logo, .input {
+#logo {
   margin-bottom: 12px;
+}
+
+.input {
+  margin-bottom: 16px;
 }
 
 #logo {
   margin-top: 162px;
+}
+
+.buttons {
+}
+
+#one, #two {
+  padding: 8px 16px;
+
+  background-color: #eeeeee;
 }
