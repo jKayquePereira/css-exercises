@@ -70,5 +70,12 @@ a:link, a:visited  {
 
 .content {
   text-align: center;
-  
+}
+
+#logo, .input {
+  margin-bottom: 12px;
+}
+
+#logo {
+  margin-top: 162px;
 }
