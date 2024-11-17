@@ -24,13 +24,17 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  display: flex;
+  padding: 30px;
 }
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
 }
+
 
 .header {
   display: flex;
@@ -44,4 +48,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 300px;
+
+  gap: 16px;
+  border: 5px solid red;
+}
+
+.card {
+  display: flex;
+  padding: 16px;
+}
+
+.side-car {
+  display: flex;
+  justify-content: space-between;
 }
