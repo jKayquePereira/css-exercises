@@ -25,12 +25,8 @@ input {
   width: 400px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a:link, a:visited  {
-  color: gray;
+a {
+  color: #666;
   text-decoration: none;
 }
 
@@ -58,6 +54,8 @@ a:link, a:visited  {
   padding: 8px;
   margin: 8px;
 
+  list-style: none;
+
   /*border: 5px solid red;*/
 }
 
@@ -70,8 +68,10 @@ a:link, a:visited  {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #logo {
@@ -86,15 +86,8 @@ a:link, a:visited  {
   margin-bottom: 16px;
 }
 
-.buttons {
-}
-
 #one, #two {
   padding: 8px 16px;
 
   background-color: #eeeeee;
-}
-
-.footer div, .header div {
-  flex: auto;
 }
