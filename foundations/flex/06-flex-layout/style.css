@@ -69,19 +69,21 @@ a:link, a:visited  {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 #logo {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  margin-top: 162px;
+
+  display: flex;
+  align-self: center;
 }
 
 .input {
   margin-bottom: 16px;
-}
-
-#logo {
-  margin-top: 162px;
 }
 
 .buttons {
@@ -91,4 +93,8 @@ a:link, a:visited  {
   padding: 8px 16px;
 
   background-color: #eeeeee;
+}
+
+.footer div, .header div {
+  flex: auto;
 }
