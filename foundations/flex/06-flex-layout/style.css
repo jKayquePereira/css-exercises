@@ -47,6 +47,10 @@ a:link, a:visited  {
   gap: 1254px;
 }
 
+.header {
+  gap: 1312px;
+}
+
 .right-links, .left-links {
   display: flex;
   gap: 16px;
